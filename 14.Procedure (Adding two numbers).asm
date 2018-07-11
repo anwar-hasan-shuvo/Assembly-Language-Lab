@@ -24,14 +24,4 @@ ADDI PROC
     MOV DL,BL
     INT 21H
     
-    ADDI ENDP
-   
-    
-
-    
-    
-    
-    
-                                                       
-                                                       
-    
+    ADDI ENDP  
