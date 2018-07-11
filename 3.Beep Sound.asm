@@ -1,0 +1,13 @@
+.MODEL SMALL
+.STACK 100H
+
+.CODE
+MAIN PROC
+    
+    MOV DL,07H
+    
+    MOV AH,2
+    INT 21H
+    MAIN ENDP
+END MAIN
+    
